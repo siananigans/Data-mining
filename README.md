@@ -1,3 +1,3 @@
-Anomoly Detection
+Anomoly Detection with varied Datasets
 -------------
 
