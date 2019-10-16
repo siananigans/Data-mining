@@ -9,12 +9,12 @@
 
 |                     |                   |
 |---------------------|-------------------|
-|Project Title:       |            |
+|Project Title:       | Anomaly detection using different data-mining techniques            |
 |Student 1 Name:      | Shannon     |
 |Student 1 ID:        | 16304263            |
 |Student 2 Name:      | Sian            |
 |Student 2 ID:        | 16343896            |
-|Project Supervisor:  | xxxxxx            |
+|Project Supervisor:  | Mark Roantree            |
 
 > Ensure that the Supervisor formally agrees to supervise your project; this is only recognised once the
 > Supervisor assigns herself/himself via the project Dashboard.
