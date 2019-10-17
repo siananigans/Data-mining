@@ -51,51 +51,52 @@ Our plan is to research the different techniques used for anomaly detection and 
 
 ### Programming language(s)
 
-Python
-SQL
-HTML
-JavaScript
-Markdown
+Python,
+SQL,
+HTML,
+JavaScript,
+Markdown.
 
 ### Programming tools / Tech stack
 
-Jupyter notebooks
-Pandas
-MySQL
+Jupyter notebooks,
+Pandas,
+MySQL.
 
 
 ### Learning Challenges
 
 New Tech:
 
-Jupyter notebook
-Statistical modeling
-Database management/MySQL
-SQL
+Jupyter notebook,
+Statistical modeling,
+Database management/MySQL,
+SQL.
 
 ### Breakdown of work
 
 Our strategy at the beginning is to research different techniques separately. 
-
 We then will start working together to set up the datasets with the MySQL database manager.
-
 From there we will split the techniques and individually work on creating an algorithm for all datasets.
-
 As we are doing 3 techniques, the person done first with their original technique will take the last.
-
 From there, we will gather the results and display them for each of the techniques we worked on. We will do a preliminary report on each technique.
-
 The last step will be to gather all results and investigate them, creating a final report based on all techniques and data-sets.
 
 
-#### Student 1
+#### Student 1: Shannon
 
-> *Student 1 should complete this section.*
+1. Create method and run with data-sets.
+2. Help with third method.
+3. Investigate findings for each method/data-set.
+4. Prepare report.
 
-#### Student 2
 
-> *Student 2 should complete this section.*
+#### Student 2: Sian
 
+1. Create method and run with data-sets.
+2. Help with third method.
+3. Investigate findings for each method/data-set.
+4. Prepare report.
 ## Example
 
 > Example: Here's how you can include images in markdown documents...
