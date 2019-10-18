@@ -119,7 +119,7 @@ Both of us will work on the docs and commiting to gitlab together.
 2. Help with third method.
 3. Investigate findings for each method/data-set.
 4. Prepare report.
-## Example
+
 
 
 
