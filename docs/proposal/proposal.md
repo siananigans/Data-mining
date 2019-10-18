@@ -51,7 +51,7 @@ This is when we decided on creating different anomaly detection algorithms based
 
 ### Achievements
 
-The main function of this project is to gain an insight into the different anomaly detection techniques and what algorithms are useful for which type of datasets. We believe that conducting these experiments can outline which algorithm is best suited to which particular dataset based on its structure and other factors and why but also why one algorithm may fail drastically when applied to a particular dataset.
+The main function of this project is to gain an insight into the different anomaly detection techniques. We believe that conducting these experiments can outline which algorithm is best suited to which particular dataset. We then want to understand **why** an algorith suits a particular dataset or alternatively **why** it does not. This could be down to the structure of the dataset or other factors such as the type of data (numerical, categorical etc.).. 
 
 We will provide a report once our research is complete. This report will specify our findings for each technique and each data-set including our own conclusions based on these findings.
 
