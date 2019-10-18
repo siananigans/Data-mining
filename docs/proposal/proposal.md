@@ -53,9 +53,16 @@ We will provide a report once our research is complete. This report will specify
 
 ### Justification
 
-Anomaly detection is used to find outliers in datasets. It finds rare items, observations or events that raise suspicion and how they differ significantly from the rest of the data. So why is anomaly detection useful? Anomalies in data can often suggest issues such as bank fraud, medical problems, structural defects or even errors in text. As well as using anomaly detection to avoid financial loss it can be applied to many areas regarding healthcare, environmental studies and political research. Insights from data are very useful and important nowadays as we live in a data driven era. The anomalies that can be pointed out are just as useful as normal insights. 
+Anomaly detection is used to find outliers in datasets. It finds rare items, observations or events that raise suspicion and how they differ significantly from the rest of the data. So why is anomaly detection useful? Anomalies in data can often suggest issues such as bank fraud, medical problems, structural defects or even errors in text. As well as using anomaly detection to avoid financial loss it can be applied to many areas regarding healthcare, environmental studies and political research. Insights from data are very useful and important nowadays as we live in a data driven era. The anomalies that can be pointed out are just as useful as normal insights.
+Anomaly detection is used in many different areas including:
+
+<p align="center">
+  <img src="./res/uses_of_anomaly_detection.png" width="300px">
+</p>
 
 Our plan is to research the different techniques used for anomaly detection and show what techniques should be used for which data sets depending on their structure and data type. Hopefully, anyone hoping to find anomalies in their dataset can learn from our research and choose a technique specific for their dataset based on our findings and results. As well as presenting our results for each dataset we need to understand why a particular algorithm worked well for one but not another and this understanding is what we would like to report alongside our findings.
+
+
 
 
 ### Programming language(s)
