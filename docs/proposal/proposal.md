@@ -29,7 +29,9 @@ The main goal of the project is to create and apply a number of anomaly detectio
 <p align="center">
   <img src="./res/Anomaly.png" width="300px">
 </p>
-
+<p align="center">
+  <img src="./res/year-data.png" width="300px">
+</p>
 Although it is to be further confirmed, we plan on using 3 techniques. One density-based technique such as; k-nearest neighbor, local outlier factor, isolation forests.
 One cluster analysis algorithm, looking for bursts of outlying activity. And finally a Bayesian Networks approach.
 
