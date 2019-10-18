@@ -25,7 +25,7 @@ Our proposed project is a data-mining based research project specifically focusi
 
 The main goal of the project is to create and apply a number of anomaly detection algorithms using various techniques on different data-sets. The purpose of this is to find the best suited algorithm for anomaly detection for each particular data-set. We want to research which technique/algorithm is best suited for a particular data set based on its structure and the type of data that it is.
 
-#####Anomaly Example
+**Anomaly Example**
 <p align="center">
   <img src="./res/Anomaly.png" width="300px">
 </p>
