@@ -67,12 +67,12 @@ Our plan is to research the different techniques used for anomaly detection and 
 
 ### Programming language(s)
 
-Python,
-SQL,
-HTML,
-CSS,
-JavaScript,
-Markdown.
+- Python
+- SQL
+- HTML
+- CSS
+- JavaScript
+- Markdown
 
 ### Programming tools / Tech stack
 
@@ -85,10 +85,10 @@ MySQL.
 
 New Tech:
 
-Jupyter notebook,
-Statistical modeling,
-Database management/MySQL,
-SQL.
+- Jupyter notebook
+- Statistical modeling
+- Database management/MySQL
+- SQL
 
 ### Breakdown of work
 
@@ -121,11 +121,5 @@ The last step will be to gather all results and investigate them, creating a fin
 4. Prepare report.
 ## Example
 
-> Example: Here's how you can include images in markdown documents...
 
-<!-- Basically, just use HTML! -->
-
-<p align="center">
-  <img src="./res/cat.png" width="300px">
-</p>
 
