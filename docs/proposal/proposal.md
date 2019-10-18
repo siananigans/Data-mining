@@ -29,7 +29,7 @@ Although it is to be further confirmed, we plan on using 3 techniques. One densi
 One cluster analysis algorithm, looking for bursts of outlying activity. And finally a Bayesian Networks approach.
 
 The datasets we plan on using are also not locked down. However, we would like to use 3 separate datasets that differ in structure to get the best result. One possibly on card transactions in the realm of fraud detection, one on health-care to point out any faults and one on environmental issues to point out unusual activity although we have not finalised the datasets yet.
-The steps that will need to be undertaken are choosing a particular dataset, cleaning it and applying our algorithms to it in order to obtain results.
+The steps that will need to be undertaken are choosing a particular dataset, creating a preliminary report with what we think we will find, cleaning it and applying our algorithms to it in order to obtain results.
 Once the algorithms have been developed and applied to the datasets, the next step would be analysis. We will prepare a report of our findings based on the results gathered from running the algorithms over our datasets. Our goal is to be able to say which algorithm worked well with which dataset and why as well as reporting any findings we did not anticipate and explaining our understanding of this.
 
 
