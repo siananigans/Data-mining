@@ -60,6 +60,10 @@ Anomaly detection is used in many different areas including:
   <img src="./res/uses_of_anomaly_detection.png" width="300px">
 </p>
 
+<p align="center">
+  <img src="./res/FraudDetection.png" width="300px">
+</p>
+
 Our plan is to research the different techniques used for anomaly detection and show what techniques should be used for which data sets depending on their structure and data type. Hopefully, anyone hoping to find anomalies in their dataset can learn from our research and choose a technique specific for their dataset based on our findings and results. As well as presenting our results for each dataset we need to understand why a particular algorithm worked well for one but not another and this understanding is what we would like to report alongside our findings.
 
 
