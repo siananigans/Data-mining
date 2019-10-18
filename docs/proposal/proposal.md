@@ -19,11 +19,16 @@
 
 ### Introduction
 
-Our proposed project is a data-mining based research project specifically focusing on anomaly detection. The project will investigate the usefulness of different anomaly detection techniques for a number of different datasets.
+Our proposed project is a data-mining based research project specifically focusing on anomaly/outlier detection. The project will investigate the usefulness of different anomaly detection techniques for a number of different datasets.
 
 ### Outline
 
 The main goal of the project is to create and apply a number of anomaly detection algorithms using various techniques on different data-sets. The purpose of this is to find the best suited algorithm for anomaly detection for each particular data-set. We want to research which technique/algorithm is best suited for a particular data set based on its structure and the type of data that it is.
+
+#Anomaly Example
+<p align="center">
+  <img src="./res/Anomaly.png" width="300px">
+</p>
 
 Although it is to be further confirmed, we plan on using 3 techniques. One density-based technique such as; k-nearest neighbor, local outlier factor, isolation forests.
 One cluster analysis algorithm, looking for bursts of outlying activity. And finally a Bayesian Networks approach.
