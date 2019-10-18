@@ -76,19 +76,19 @@ Our plan is to research the different techniques used for anomaly detection and 
 
 ### Programming tools / Tech stack
 
-Jupyter notebooks,
-Pandas,
-MySQL.
+- Jupyter notebooks
+- Pandas
+- MySQL
 
 
 ### Learning Challenges
 
 New Tech:
 
-- Jupyter notebook
-- Statistical modeling
-- Database management/MySQL
-- SQL
+- Jupyter notebook: A open-source web app for creating anf sharing documents. The notebooks will be very useful for equations and visulizations and also for sharing the notebooks between us.
+- Statistical modeling: Statistical modeling such as this, is a new concept for us and will be a challenge to learn.
+- Database management/MySQL: As we will be using datasets, MySQL will be needed.
+- SQL: SQL will bw needed for the above also.
 
 ### Breakdown of work
 
@@ -103,7 +103,7 @@ From there, we will gather the results and display them for each of the techniqu
 
 The last step will be to gather all results and investigate them, creating a final report based on all techniques and data-sets.
 
-
+Both of us will work on the docs and commiting to gitlab together.
 
 #### Student 1: Shannon
 
