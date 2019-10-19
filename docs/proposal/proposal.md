@@ -96,7 +96,7 @@ Our plan is to research the different techniques used for anomaly detection and 
 
 New Tech:
 
-- Jupyter notebook: A open-source web app for creating anf sharing documents. The notebooks will be very useful for equations and visulizations and also for sharing the notebooks between us.
+- Jupyter notebook: A open-source web app for creating and sharing documents. The notebooks will be very useful for equations and visulizations and also for sharing the notebooks between us.
 - Statistical modeling: Statistical modeling such as this, is a new concept for us and will be a challenge to learn.
 - Database management/MySQL: As we will be using datasets, MySQL will be needed.
 - SQL: SQL will bw needed for the above also.
