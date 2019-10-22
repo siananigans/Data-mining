@@ -15,11 +15,7 @@
 
 
 ## SECTION B
-Does it have anomolaies?
 
-Show them, which technique showed what?
-
-Display graphically based on our research.
 ### Introduction
 
 Our proposed project is a data-mining based research/software project specifically focusing on anomaly detection. The project will investigate the usefulness of different anomaly detection techniques for a number of different datasets. From this investigation, we will create a system that can apply these methods to an 'unseen' dataset and give insights into the outliers within the given dataset provided they exist.
@@ -118,7 +114,8 @@ New Tech:
 
 ### Breakdown of work
 
-Our strategy is to split the work down the middle. Taking two methods of outlier detection and runnning the datasets over them. Gathere all results and 
+Our strategy is to split the work down the middle. Taking two methods of outlier detection and runnning the datasets over them. We will gather all results and compare them to eachothers findings.
+The second part is splitting the application, backend and frontend. Any other work that arises will be split evenly including all the documentation.
 
 #### Student 1: Shannon
 
