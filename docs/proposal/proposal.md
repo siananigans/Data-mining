@@ -87,9 +87,10 @@ Our plan is to research the different techniques used for anomaly detection and 
 
 ### Programming tools / Tech stack
 
-- Jupyter notebooks
-- Pandas
-- MySQL
+- Jupyter notebooks - Web app for creating docs. Good for data-mining. 
+- Pandas - library for data structures.
+- MySQL - Database management.
+- Visual studio - text editor.
 
 
 ### Learning Challenges
@@ -99,37 +100,42 @@ New Tech:
 - Jupyter notebook: A open-source web app for creating and sharing documents. The notebooks will be very useful for equations and visulizations and also for sharing the notebooks between us.
 - Statistical modeling: Statistical modeling such as this, is a new concept for us and will be a challenge to learn.
 - Database management/MySQL: As we will be using datasets, MySQL will be needed.
-- SQL: SQL will bw needed for the above also.
+- SQL: SQL will be needed for the above also.
 
 ### Breakdown of work
 
-Our strategy at the beginning is to research different techniques separately. As this is a research project and not a development  one our approach may be slightly different in order to separate the work. While we will research techniques separately we will learn from each other regarding different insights the other has obtained.
-
+Our strategy at the beginning is to research different techniques separately. As this is a research project and not a complete application our approach may be slightly different in order to separate the work. While we will research techniques separately we will learn from each other regarding different insights the other has obtained.
 We will work together to set up the datasets with the MySQL database manager. The management and upkeep of the database will be looked after by both of us.
-From there we will split the techniques and individually work on creating an algorithm for all datasets.
-
+From there we will split the techniques and individually work on creating algorithms for all datasets and methods.
 As we are doing 3 techniques, the person done first with their original technique will take the last.
-
 From there, we will gather the results and display them for each of the techniques we worked on. We will do a preliminary report on each technique.
-
 The last step will be to gather all results and investigate them, creating a final report based on all techniques and data-sets.
-
 Both of us will work on the docs and commiting to gitlab together.
 
 #### Student 1: Shannon
 
-1. Create method and run with data-sets.
-2. Help with third method.
-3. Investigate findings for each method/data-set.
-4. Prepare report.
+1. Pick method for anomaly detection.
+2. Create algorithm for specific theqnique.
+3. Repeat for all datasets, recording the outcome for each.
+4. Compare and contrast the results for each dataset.
+5. Prepare a report on this method.
+6. Work on last method in correlation with other student.
+7. Gather all results.
+8. Create and modify the main report of findings based the methods done by this student.
+9. Display all results and findings deduced from results in report.
 
 
 #### Student 2: Sian
 
-1. Create method and run with data-sets.
-2. Help with third method.
-3. Investigate findings for each method/data-set.
-4. Prepare report.
+1. Pick method for anomaly detection.
+2. Create algorithm for specific theqnique.
+3. Repeat for all datasets, recording the outcome for each.
+4. Compare and contrast the results for each dataset.
+5. Prepare a report on this method.
+6. Work on last method in correlation with other student.
+7. Gather all results.
+8. Create and modify the main report of findings based the methods done by this student.
+9. Display all results and findings deduced from results in report.
 
 
 
