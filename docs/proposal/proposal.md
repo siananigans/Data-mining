@@ -107,6 +107,8 @@ As an added bonus to the justification of our project, anyone looking to find an
 
 ### Learning Challenges
 
+The nature of this project is research based meaning we are expecting to succeed with our analysis but also find unexpected results that may hinder our progress. However we hope to learn from these and use them to our advantage.
+
 New Tech:
 
 - Jupyter notebook: A open-source web app for creating and sharing documents. The notebooks will be very useful for equations and visulizations and also for sharing the notebooks between us.
@@ -116,7 +118,8 @@ New Tech:
 
 ### Breakdown of work
 
-Our strategy is to split the work down the middle. Taking two methods of outlier detection and runnning the datasets over them. Gathere all results and 
+Our strategy is to split the work down the middle. Taking two methods of outlier detection each and runnning the datasets over them. Next we will gather all results, compare and contrast with eachother and document them in a format that can be accessed from the application.
+The aplication will be split backend and front end. Any other work that arises will be split as well as the documentation.
 
 #### Student 1: Shannon
 
