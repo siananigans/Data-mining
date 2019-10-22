@@ -25,10 +25,10 @@ Our proposed project is a data-mining based research/software project specifical
 For this project, we have multiple goals in mind. The main goal of the project is to create and apply a number of anomaly detection algorithms using various techniques on different datasets. The purpose of this is to gain insights into the different methods that we have applied. An example of this would be, why a particular method highlights certain outliers whereas another displays differnt outliers or even no outliers at all.
 
 **Anomaly Example**
-<p align="center">
+<p align="left">
   <img src="./res/Anomaly.png" width="300px">
 </p>
-<p align="center">
+<p align="right">
   <img src="./res/year-data.png" width="300px">
 </p>
 Although it is to be further confirmed, we plan on using 4 techniques. Two density-based technique such as; k-nearest neighbor, local outlier factor, isolation forests.
