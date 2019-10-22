@@ -5,7 +5,7 @@
 
 |                     |                   |
 |---------------------|-------------------|
-|Project Title:       | Anomaly detection using different data-mining techniques            |
+|Project Title:       | Anomaly detection using different anomaly detection methodologies            |
 |Student 1 Name:      | Shannon Mulgrew   |
 |Student 1 ID:        | 16304263            |
 |Student 2 Name:      | Sian   Lennon         |
