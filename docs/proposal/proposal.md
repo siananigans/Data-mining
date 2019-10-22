@@ -41,6 +41,9 @@ Once the algorithms have been developed and applied to the datasets, the next st
 
 The last step would be to make an application to allow users to upload a dataset of there own. The application will run the dataset over our algorithms and produce a graph of the anomalies detected for each method. We will then display the 'best-fit' method used along with the results based on our previous findings from the above experiments. For example, which method worked well and why? The why part will be deduced from our experiments. Done by, comparing and contrasting the dataset given and the results from this to the datasets used in the experiments and their results.
 The application will will feature a basic UI and backend to handle the datasets and display a graphical representation on the results.
+<p align="center">
+  <img src="./res/proto.png" width="300px">
+</p>
 
 ### Background
 
