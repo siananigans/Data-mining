@@ -39,8 +39,8 @@ The steps that will need to be undertaken are choosing a particular dataset, cle
 Once the algorithms have been developed and applied to the datasets, the next step would be analysis. We will prepare a report of our findings based on the results gathered from running the algorithms over our datasets. Our goal is to be able to say which algorithm worked well with which dataset and why as well as reporting any findings we did not anticipate and explaining our understanding of this.
 <br />
 
-The last step would be to make an application to allow users to upload a dataset of there own. The application will run the dataset over our algorithms and produce a graph of the anomalies detected for each method. We will then display the 'best-fit' method used along with the results based on our previous findings from the above experiments. For example, which method worked well and why? The why part will be deduced from our experiments. Done by, comparing and contrasting the dataset given and the results from this to the datasets used in the experiments and their results.
-The application will will feature a basic UI and backend to handle the datasets and display a graphical representation on the results.
+The last step would be to make an application to allow users to upload a dataset of their own. The application will run the dataset over our algorithms and produce a graph of the anomalies detected for each method. We will then display the 'best-fit' method used along with the results based on our previous findings from the above experiments. For example, which method worked well and why? The why part will be deduced from our experiments. Done by, comparing and contrasting the dataset given and the results from this to the datasets used in the experiments and their results.
+The application will feature a basic UI and backend to handle the datasets and display a graphical representation on the results.
 <p align="center">
   <img src="./res/proto.png" width="300px">
 </p>
@@ -58,7 +58,7 @@ This is when we decided on creating different anomaly detection algorithms based
 
 ### Achievements
 
-The main function of this project is to gain an insight into the different anomaly detection techniques. We believe that conducting these experiments can outline which algorithm is best suited to which particular dataset. We then want to understand **why** an algorith suits a particular dataset or alternatively **why** it does not. This could be down to the structure of the dataset or other factors such as the type of data (numerical, categorical etc.).
+The main function of this project is to gain an insight into the different anomaly detection techniques. We believe that conducting these experiments can outline which algorithm is best suited to which particular dataset. We then want to understand **why** an algorithm suits a particular dataset or alternatively **why** it does not. This could be down to the structure of the dataset or other factors such as the type of data (numerical, categorical etc.).
 By creating the interactive application, we plan to provide a way to process a dataset and then detect which algorithm is best-suited and explain why.
 
 
