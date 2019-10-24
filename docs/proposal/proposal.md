@@ -1,4 +1,3 @@
-
 # School of Computing &mdash; Year 4 Project Proposal Form
 
 
@@ -25,7 +24,7 @@ Our proposed project is a Python web app to aid studying.The application will al
 
 The application can be broken down into several (number) components.
 
-< br />
+<br />
 
 The bulk of the project is the AI for creating questions and answers based on text. For this we will need to work with Natural language processing, we plan to do this with a Neural Network algorithm. 
 
