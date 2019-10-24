@@ -79,11 +79,11 @@ We have never built any kind of machine learning system before, this will most l
 
 New Tech:
 
-TensorFlow
-SQLite
-Boostrap
-AWS
-Docker
+- TensorFlow
+- SQLite
+- Boostrap
+- AWS
+- Docker
 
 
 ### Breakdown of work
