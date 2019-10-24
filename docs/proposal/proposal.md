@@ -93,23 +93,23 @@ The work will be split evenly with Sian taking the lead on creating the Natural 
 
 #### Student 1: Shannon
 
-Django setup.
-Link with database.
-Text uploader.
-HTML scraper.
-User Interface.
-Create Docker containers for components.
-Set up AWS with Django and Docker containers.
-User testing.
+1. Django setup.
+2. Link with database.
+3. Text uploader.
+4. HTML scraper.
+5. User Interface.
+6. Create Docker containers for components.
+7. Set up AWS with Django and Docker containers.
+8. User testing.
 
 
 #### Student 1: Sian
 
-Neural network/ TensorFlow research.
-Neural Network implementation.
-Neural Network training.
-Neural Network testing.
-Create Docker containers for components.
-Set up AWS with Django and Docker containers.
-Linking with application.
-Automation testing.
+1. Neural network/ TensorFlow research.
+2. Neural Network implementation.
+3. Neural Network training.
+4. Neural Network testing.
+5. Create Docker containers for components.
+6. Set up AWS with Django and Docker containers.
+7. Linking with application.
+8. Automation testing.
