@@ -18,7 +18,7 @@
 
 ### Introduction
 
-Our proposed project is a Python web app to aid studying.The application will allow users to upload text or link a webpage, from which a number of questions can be generated
+Our proposed project is a Python web app to help the school of computing students while studying.The application will allow users to upload text or link a webpage, from which a number of questions can be generated
 The answers the user will give for the questions will be corrected by the application and then release a score to the user.
 This web-app is supposed to help students prepare and practice for an exam. 
 For the moment we are focusing on CASE 4 modules to train our data as we are most familiar with that. 
@@ -32,7 +32,7 @@ The application can be broken down into several (number) components.
 <br />
 The main aspect of the project is Natural Language Processing. We need to be able to take the text given, process it and ask the user questions on it.
 
-The bulk of the project is the AI for creating questions and answers based on text. For this we will need to work with Natural language processing, we plan to do this with a Neural Network algorithm. 
+The bulk of the project is the AI for creating questions and answers based on text. For this we will need to work with Natural language processing, applying regular expressions to the text in order to create questions based on statements.
 
 
 <br />
@@ -42,11 +42,11 @@ The other components consist of: a text uploader, a ‘scoring system’, a HTML
 
 ### Background
 
-The idea came about when reading about Natural Language processing and that it could be used for creating questions from text. We thought that this could be implemented well for students trying to learn and thought of this app.
+The idea came about when reading about Natural Language processing and that it could be used for creating questions from text. We thought that this could be implemented well for students trying to learn and thought of this app. We realised that as 4th year computing students, this sort of application would be very useful for our modules. 
 
 ### Achievements
 
-We hope to achieve an all inclusive app for studiers to be quizzed on their notes and topics. The user should also be able to log-in and out of the app with their score for each text uploaded displayed for them. 
+We hope to achieve an all inclusive app for School of Computing Students to be quizzed on their notes and topics. The user should also be able to log-in and out of the app with their score for each text uploaded displayed for them. 
 
 
 
@@ -111,10 +111,10 @@ The work will be split evenly with Sian taking the lead on creating the Natural 
 
 #### Student 1: Sian
 
-1. Neural network/ TensorFlow research.
-2. Neural Network implementation.
-3. Neural Network training.
-4. Neural Network testing.
+1. Natural Language processing research.
+2. NLP implementation.
+3. NLP training.
+4. NLP testing.
 5. Create Docker containers for components.
 6. Set up AWS with Django and Docker containers.
 7. Linking with application.
