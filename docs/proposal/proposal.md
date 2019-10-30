@@ -18,7 +18,7 @@
 
 ### Introduction
 
-Our proposed project is a Python web app to help the school of computing students while studying.The application will allow users to upload text or link a webpage, from which a number of questions can be generated
+Our proposed project is a Python web app to help the school of computing students while studying. The application will allow users to upload text or link a webpage, from which a number of questions can be generated.
 The answers the user will give for the questions will be corrected by the application and then release a score to the user.
 This web-app is supposed to help students prepare and practice for an exam. 
 For the moment we are focusing on CASE 4 modules to train our data as we are most familiar with that. 
