@@ -22,7 +22,7 @@ Our proposed project is a Python web app to help the school of computing student
 The answers the user will give for the questions will be corrected by the application and then release a score to the user.
 This web-app is supposed to help students prepare and practice for an exam. 
 For the moment we are focusing on CASE 4 modules to train our data as we are most familiar with that. 
-Once we feel it performs to standard we can expand to other modules.
+Once we feel it performs to standard we can expand to other modules within School of Computing.
 
 
 ### Outline
@@ -30,14 +30,20 @@ Once we feel it performs to standard we can expand to other modules.
 The application can be broken down into several (number) components.
 
 <br />
-The main aspect of the project is Natural Language Processing. We need to be able to take the text given, process it and ask the user questions on it.
+The main aspect of the project is Natural Language Processing. We need to be able to take the text given, process it extract information and ask the user questions on it.
 
 The bulk of the project is the AI for creating questions and answers based on text. For this we will need to work with Natural language processing, applying regular expressions to the text in order to create questions based on statements.
 
 
 <br />
 
-The other components consist of: a text uploader, a ‘scoring system’, a HTML linking and scraping system, a log-in/account system and a user interface.
+The other components consist of: 
+-a text uploader
+-a ‘scoring system’
+-a HTML linking and scraping system
+-a log-in/account system
+-database 
+-a user interface.
 
 
 ### Background
@@ -55,6 +61,7 @@ We hope to achieve an all inclusive app for School of Computing Students to be q
 Rather than just reading off a set of notes, people could be quizzed on their topic and receive a ‘score’ based on their knowledge of these notes.
 
 We believe this will greatly benefit anyone studying for exams, specifically students coming up to exam season.
+
 
 ### Programming language(s)
 
