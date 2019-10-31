@@ -1,3 +1,3 @@
-Anomoly Detection with varied Datasets
+Study Smart 
 -------------
 
