@@ -20,19 +20,19 @@
 
 Our proposed project is a Python web app to help the school of computing students while studying. The application will allow users to upload text or link a webpage, from which a number of questions can be generated.
 The answers the user will give for the questions will be corrected by the application and then release a score to the user.
-This web-app is supposed to help students prepare and practice for an exam. 
+This web-app will be designed to help students prepare and practice for an exam. 
 For the moment we are focusing on CASE 4 modules to train our data as we are most familiar with that. 
 Once we feel it performs to standard we can expand to other modules within School of Computing.
 
 
 ### Outline
 
-The application can be broken down into several (number) components.
+The application can be broken down into several components.
 
 <br />
-The main aspect of the project is Natural Language Processing. We need to be able to take the text given, process it extract information and ask the user questions on it.
+The main aspect of the project is Natural Language Processing. The application will read in any text/Webpage, then process and extract information in order to to creat questions and answers on that text.
 
-The bulk of the project is the AI for creating questions and answers based on text. For this we will need to work with Natural language processing, applying regular expressions to the text in order to create questions based on statements.
+The bulk of the project is the AI for creating questions and answers. For this we will need to work with Natural language processing, applying regular expressions to the text in order to create questions based on statements.
 
 
 <br />
@@ -44,6 +44,8 @@ The other components consist of
 - A log-in/account system
 - A database 
 - A user interface.
+- AWS Server.
+- Docker continers.
 
 
 ### Background
