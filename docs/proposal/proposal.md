@@ -37,13 +37,13 @@ The bulk of the project is the AI for creating questions and answers based on te
 
 <br />
 
-The other components consist of: 
--a text uploader
--a ‘scoring system’
--a HTML linking and scraping system
--a log-in/account system
--database 
--a user interface.
+The other components consist of  
+- A text uploader.
+- A ‘scoring system’.
+- A HTML linking and scraping system.
+- A log-in/account system
+- A database 
+- A user interface.
 
 
 ### Background
@@ -65,20 +65,19 @@ We believe this will greatly benefit anyone studying for exams, specifically stu
 
 ### Programming language(s)
 
-- Python - Backend/ Neural network.
+- Python - Backend/NLTK 
 - SQL - For database in backend.
 - HTML - For frontend.
 - CSS - For frontend.
-- JavaScript - For frontend.
+- JavaScript - For dynamic frontend.
 - Markdown - Docs
 
 ### Programming tools / Tech stack
 
 - Django - Framework for backend and frontend.
-- TensorFlow - Machine learning/Neural Network Library
-- MySQL - Database management.
+- MySQL/Firebase - Database management.
 - Visual studio - text editor.
-- Selenium - Testing.
+- Selenium - Automation Testing.
 - Boostrap - Library.
 - AWS - Amazon web services web hosting
 - Docker - Containers
@@ -86,14 +85,14 @@ We believe this will greatly benefit anyone studying for exams, specifically stu
 
 ### Learning Challenges
 
-We have never built any kind of machine learning system before, this will most likely be the biggest challenge however there are plenty of online resources for TensorFlow used with Python for Neural networks.
+The Natural Language Processing will be a challenge as we have never attempted a project in this area before. Docker and AWS are new to us and implementing this will reqiure research also.
 
 
 
 New Tech:
 
-- TensorFlow
-- SQLite
+
+- SQL/Firebase
 - Boostrap
 - AWS
 - Docker
