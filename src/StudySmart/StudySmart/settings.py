@@ -73,10 +73,25 @@ WSGI_APPLICATION = 'StudySmart.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# change database to mySql
+
+#DATABASES = {
+ #   'default': {
+  #      'ENGINE': 'django.db.backends.sqlite3',
+   #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #}
+#}
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+'default': {
+'ENGINE': 'django.db.backends.mysql',
+'NAME': 'studysmart',
+'USER': 'root',
+'PASSWORD': "",
+'HOST': "",
+'PORT': "",
+'OPTIONS': {
+'init_command': "SET sql_mode='STRICT_TRANS_TABLES'" #passing sql as a string through python for sql parser to look after 
+        }
     }
 }
 
