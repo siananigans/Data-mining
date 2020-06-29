@@ -1,0 +1,7 @@
+[report]
+exclude_lines =
+	pragma: no cover
+	if __name__ == .__main__.:
+omit =
+	noc_tools/__main__.py
+	noc_tools/main.py

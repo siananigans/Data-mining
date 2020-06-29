@@ -1,0 +1,18 @@
+{
+  "statsd": "127.0.0.1:8125",
+  "bugsnag": {
+    "api_key": "example1234",
+    "release_stage": "localdevelopment",
+    "notify_release_stages": ["development", "production"]
+  },
+  "http": {
+    "host": "127.0.0.1",
+    "port": 8080
+  },
+  "apidocs": {
+    "filepath": "./apidocs/",
+    "filenames": [
+      "private.json"
+    ]
+  }
+}

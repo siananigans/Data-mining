@@ -1,0 +1,91 @@
+{
+  "10000": {
+    "notes": "HTTP status code 422",
+    "code": "10000",
+    "description": "An error occured while processing the request.",
+    "title": "Invalid request"
+  },
+  "10001": {
+    "code": "10001",
+    "description": "The phone number is inactive.",
+    "title": "Inactive phone number"
+  },
+  "10002": {
+    "code": "10002",
+    "description": "The phone number is invalid.",
+    "title": "Invalid phone number"
+  },
+  "10003": {
+    "code": "10003",
+    "description": "The URL provided was invalid or malformed.",
+    "title": "Invalid URL"
+  },
+  "10004": {
+    "code": "10004",
+    "description": "A required parameter was missing.",
+    "title": "Missing required parameter"
+  },
+  "10005": {
+    "notes": "HTTP status code 404",
+    "code": "10005",
+    "description": "The requested resource was not found.",
+    "title": "Resource not found"
+  },
+  "10006": {
+    "code": "10006",
+    "description": "The resource ID provided was invalid.",
+    "title": "Invalid ID"
+  },
+  "10007": {
+    "notes": "HTTP status code 500",
+    "code": "10007",
+    "description": "The server returned an unknown error.",
+    "title": "Server error"
+  },
+  "10008": {
+    "notes": "HTTP status code 408",
+    "code": "10008",
+    "description": "The request timed out.",
+    "title": "Request timeout"
+  },
+  "10009": {
+    "notes": "HTTP status code 401",
+    "code": "10009",
+    "description": "The request failed because the user is not authenticated.",
+    "title": "Unauthorized"
+  },
+  "10010": {
+    "notes": "HTTP status code 403",
+    "code": "10010",
+    "description": "The request failed because the user does not have authorization to access this resource.",
+    "title": "Forbidden"
+  },
+  "10011": {
+    "notes": "HTTP status code 429",
+    "code": "10011",
+    "description": "You have exceeded the maximum number of allowed requests.",
+    "title": "Too many requests"
+  },
+  "10012": {
+    "code": "10012",
+    "description": "Resource is a duplicate.",
+    "title": "Duplicate resource"
+  },
+  "10013": {
+    "code": "10013",
+    "description": "One of the associated fields does not exist.",
+    "title": "Missing association"
+  },
+  "10014": {
+    "notes": "HTTP status code 415",
+    "code": "10014",
+    "description": "The request failed because the server does not support the media type.",
+    "title": "Unsupported Media Type"
+  },
+  "10015": {
+    "notes": "HTTP status code 400",
+    "code": "10015",
+    "description": "The request failed because it was not well-formed.",
+    "title": "Bad Request"
+  }
+}

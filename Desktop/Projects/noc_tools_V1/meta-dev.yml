@@ -1,0 +1,84 @@
+# This metadata file defines some useful information about your service,
+# such as who owns it, its dependencies and the information needed to deploy it.
+# Visit https://github.com/team-telnyx/infra-roles-deploy-nomad#the-metadata-file
+# to get more information about the metadata file.
+
+# The names and project stanzas are used to build the service directory.
+#
+# http://admin.telnyx.com/resources/service-directory
+
+names:
+  service: noc_tools
+  github: noc_tools
+
+project:
+  squad: noc.squad
+  primary_maintainer: Sian
+  secondary_maintainer: Dillin
+  public_api: false
+  private_api: true
+
+# The deploy stanza contains all the information required by the scheduler to deploy your service.
+# As this is the meta-dev file, all this information is used to deploy to the dev environment.
+# You can see all the services running in the dev cluster here:
+#
+# https://nomaddev.internal.telnyx.com/ui/jobs
+
+deploy:
+  # cpu and memory are limits on the amount of CPU use and RAM available to every 
+  # instance of your service.
+  # cpu is measured in MHz
+  # memory is measured in MB
+  # If an instance exceeds these limits, the scheduler will kill it and try to re-provision it. 
+  cpu: 100
+  memory: 256
+  instances: 1
+  # when starting a new service, you don't want to auto_revert turned on yet, because the scheduler
+  # will do weird things with your first-time deploy when it fails.
+  auto_revert: no  
+  service:
+    # service here refers to ports and the name of what is listening on the port.
+    # if your service listens on multiple ports you can name and define them below.
+    # The scheduler will make sure that these ports are available to your service.
+      - name: noc_tools
+        port: 8080
+
+  # The env stanza defines variables that are made available to your service when it is provisioned.
+  # These variables are created as UNIX environment variables inside of the containers that host 
+  # your service.
+  env:
+    # For your convenience we have three different ways to store this information, 
+    # static:  these variables are defined in this file... they come with free version control.
+    # dynamic: these variables are created in consul and default to the value you define here.
+    # secret:  these variables are secrets, we want to keep them secret, so these are stored securely in the vault.
+
+    static:
+      VER_PYTHON: 3.6
+      VER_PIP: 18.1
+      VER_PIPENV: 2018.11.26
+      APIDOCS_FILEPATH: /app/apidocs
+      BUGSNAG_RELEASE_STAGE: development
+      TELEGRAF_STATSD: statsd.service.dev-central.consul:8125
+      HTTP_PORT: 8080
+      HTTP_IP: 0.0.0.0
+
+    dynamic:
+      # dynamic variables are stored in a consul key value store and are initialized 
+      # with the values defined here, updating a value in consul will signal the scheduler 
+      # to restart your service and pass it the new values from consul
+      #
+      # https://consuldev.internal.telnyx.com/
+
+      LOG_LEVEL: INFO
+
+    secret:
+    # Variables defined here are stored securely as key value pairs in the vault 
+    # (AKA the chamber of secrets)
+    # Here are some examples of things you should consider storing as secrets.
+    # - API keys
+    # - Database credentials (both username and password)
+    # - Private keys 
+    # 
+    # https://vaultdev.internal.telnyx.com/
+
+    - BUGSNAG_API_KEY

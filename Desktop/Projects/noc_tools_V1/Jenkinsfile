@@ -1,0 +1,19 @@
+
+// This is all that is required to deploy your service to Nomad
+@Library("github.com/team-telnyx/infra-ci-pipelines@latest") _
+kubernetes {
+    service = "noc_tools"
+}
+
+
+// If you want to deploy your service to autodeploy to both nomad and our existing infrastructure in dev
+// then replace the section above with this:
+
+// @Library("github.com/team-telnyx/tlnx-ci-lib") _
+// makeNomad {
+//    service      = "noc_tools"
+//    site         = "dc2"
+//    // hostGroup is the tanker group you normally deploy to in dev
+//    hostGroup    = "dev_v2backend_tankers"
+//
+//}

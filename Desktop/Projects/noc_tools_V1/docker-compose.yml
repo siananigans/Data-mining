@@ -1,0 +1,25 @@
+version: "2.1"
+
+services:
+
+    noc_tools:
+        image: "registry:5000/jenkins/noc_tools:${TAG:-dev}"
+        build: .
+        ports:
+            - "8080:8080"
+        env_file:
+            - example.env
+        environment:
+            - HTTP_IP=0.0.0.0
+
+    ci:
+        container_name: noc_tools-ci
+        image: "registry:5000/jenkins/noc_tools:${TAG:-dev}"
+        build: .
+        ports:
+            - "8080:8080"
+        env_file:
+            - example.env
+        environment:
+            - HTTP_IP=0.0.0.0
+        entrypoint: /app/files/run_tests.sh

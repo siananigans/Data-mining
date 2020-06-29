@@ -1,0 +1,43 @@
+[[source]]
+url = "https://artifactory.telnyx.com/api/pypi/pypi-telnyx/simple"
+verify_ssl = true
+name = "telnyx_pypi"
+
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aiohttp = ">=3,<4"
+aiohttp_cors = "*"
+aiotelegraf = "==0.1.1"
+attrs = "*"
+bugsnag = "*"
+jsonref = "==0.1"
+marshmallow = "*"
+# multidict 4.5.0-1 have significant memory leaks, do not use in services.
+multidict = "!=4.5.0, !=4.5.1"
+telnyx-python-http = ">=6"
+telnyx-python-reporter = ">=5"
+telnyx-python-utils = ">=5"
+yarl = "*"
+
+# [dev-packages]
+# not officially marking these as dev for now as we're not doing multistage
+# builds, but also trying to keep them separate in case it happens later.
+black = "==18.9b0"
+coverage = "*"
+"flake8" = "*"
+freezegun = "*"
+invoke = "*"
+mypy = "*"
+pylint = "*"
+pytest = "*"
+pytest-aiohttp = "*"
+pytest-cov = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
